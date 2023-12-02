@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body{
+    background-color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-container {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    
+  }
+  form img{
+    height: 80px;
+    width: 100px;
+    padding-bottom: 15px;
+    margin-left:30% ;
+    
+  }
+  form button{
+    background-color: #00B4DB;
+    box-shadow: 2px solid red 2px;
+    border:none;
+    color:white;
+    font-weight: bold;
+    font-size:24px;
+  }
+  span{
+    color:white;
+  }
+/* ____________formatacao para responsividade___________*/
+
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  label, input, select, button, p {
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+    border-radius: 10px;
+    padding:15px;
+    font-size: 18px;
+    border:none;
+  }
+  
+  select {
+    appearance: none;
+    padding: 15px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    form {
+      max-width: 100%;
+    }
+  }
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 480px) {
+    form {
+        max-width: 90%;
+        max-width: 300px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    form {
+        max-width: 90%;
+        max-width: 250px;
+    }
+}
+
+
+ 
+
